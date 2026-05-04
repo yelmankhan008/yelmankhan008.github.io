@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yelman Khan — AI Security & ML</title>
+    <meta name="description" content="Yelman Khan — Sr. Machine Learning Engineer at Palo Alto Networks. AI Security, adversarial robustness, agentic systems.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Nav -->
+    <nav class="nav" id="nav">
+        <div class="nav-inner">
+            <a href="#" class="nav-logo">yelman<span class="dot">.</span></a>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+                <span></span><span></span><span></span>
+            </button>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#writing">Writing</a></li>
+                <li><a href="#research">Research</a></li>
+                <li><a href="#background">Background</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+                <svg class="icon-sun" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+                <svg class="icon-moon" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <header class="hero">
+        <div class="container">
+            <div class="hero-layout">
+                <div class="hero-text">
+                    <h1 class="hero-name anim">Yelman Khan</h1>
+                    <p class="hero-role anim">Sr. Machine Learning Engineer at <strong>Palo Alto Networks</strong></p>
+                    <p class="hero-bio anim">I work on AI security — building ML systems that protect enterprises, and figuring out how to protect the ML systems themselves.</p>
+                    <div class="hero-links anim">
+                        <a href="mailto:yelmankhan008@gmail.com">Email</a>
+                        <a href="https://www.linkedin.com/in/yelman-khan-9a937210a/" target="_blank">LinkedIn</a>
+                        <a href="https://github.com/yelmankhan008" target="_blank">GitHub</a>
+                        <a href="https://scholar.google.com/citations?user=-5Nh5FgAAAAJ&hl=en" target="_blank">Scholar</a>
+                    </div>
+                </div>
+                <div class="hero-photo anim">
+                    <img src="assets/profile.jpg" alt="Yelman Khan">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Currently -->
+    <section class="section-tight">
+        <div class="container">
+            <div class="now-bar">
+                <span class="now-pulse"></span>
+                <p><strong>Currently:</strong> In my own time building adversarial evaluations for tool-using security agents — testing whether oversight monitors hold up when the context itself is poisoned.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Writing -->
+    <section class="section" id="writing">
+        <div class="container">
+            <h2 class="section-heading scroll-in">Writing & Experiments</h2>
+            <p class="section-sub scroll-in">Research notes, experiments, and things I'm figuring out in public.</p>
+
+            <div class="writing-grid">
+                <article class="w-card w-featured scroll-in">
+                    <div class="w-meta">
+                        <span class="w-tag">Experiment</span>
+                        <span class="w-date">Coming soon</span>
+                    </div>
+                    <h3>Can Agent Monitors Be Trusted?</h3>
+                    <p>Adversarial evaluation of oversight mechanisms for tool-using security agents. Context poisoning, monitor manipulation, and evaluation attacks.</p>
+                    <div class="w-topics">
+                        <span>agentic-security</span>
+                        <span>context-poisoning</span>
+                        <span>adversarial-eval</span>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Independent Research -->
+    <section class="section section-alt" id="research">
+        <div class="container">
+            <h2 class="section-heading scroll-in">Independent Research</h2>
+            <p class="section-sub scroll-in">Work I'm exploring on my own — separate from my day job.</p>
+
+            <div class="research-grid">
+                <div class="r-card scroll-in">
+                    <h3>Agentic AI Security</h3>
+                    <p>Securing AI agents that use tools, access data, and make autonomous decisions — especially when the context they operate on is adversarial.</p>
+                </div>
+                <div class="r-card scroll-in">
+                    <h3>Oversight Robustness</h3>
+                    <p>Can monitors, judges, and escalation policies be fooled? Testing whether AI safety mechanisms survive adversarial pressure.</p>
+                </div>
+                <div class="r-card scroll-in">
+                    <h3>Context Poisoning</h3>
+                    <p>How retrieval results, tool outputs, and agent memory become attack vectors that manipulate behavior through the context window.</p>
+                </div>
+                <div class="r-card scroll-in">
+                    <h3>Real-World Eval</h3>
+                    <p>Building evaluations grounded in actual deployment conditions — production systems face different threats than benchmarks suggest.</p>
+                </div>
+            </div>
+
+            <!-- Publications -->
+            <h3 class="sub-heading scroll-in">Publications</h3>
+            <div class="patents-row">
+                <div class="p-card scroll-in">
+                    <a href="https://scholar.google.com/citations?user=-5Nh5FgAAAAJ&hl=en" target="_blank" class="p-title">View all publications on Google Scholar &rarr;</a>
+                </div>
+            </div>
+
+            <!-- Patents -->
+            <h3 class="sub-heading scroll-in" style="margin-top: 32px;">Patents</h3>
+            <div class="patents-row">
+                <div class="p-card scroll-in">
+                    <a href="https://patents.google.com/patent/US20250202770A1" target="_blank" class="p-title">IoT Policy Recommendation Large Language Model (LLM) Embeddings Based Global Behavior Learning</a>
+                    <code>US 20250202770</code>
+                </div>
+                <div class="p-card scroll-in">
+                    <a href="https://patents.google.com/patent/US12475115B2" target="_blank" class="p-title">IoT Security Knowledge-Based Chatbot System</a>
+                    <code>US 12475115B2</code>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Background -->
+    <section class="section" id="background">
+        <div class="container">
+            <h2 class="section-heading scroll-in">Background</h2>
+
+            <div class="bg-grid">
+                <div class="bg-col">
+                    <h4 class="bg-label scroll-in">Industry</h4>
+
+                    <div class="bg-item scroll-in">
+                        <div class="bg-top">
+                            <span class="bg-role">Sr. Machine Learning Engineer</span>
+                            <span class="bg-dates">Mar 2026 — present</span>
+                        </div>
+                        <div class="bg-org">Palo Alto Networks · Santa Clara</div>
+                        <div class="bg-desc">AI security.</div>
+                    </div>
+
+                    <div class="bg-item scroll-in">
+                        <div class="bg-top">
+                            <span class="bg-role">Machine Learning Engineer</span>
+                            <span class="bg-dates">Jun 2022 — Mar 2026</span>
+                        </div>
+                        <div class="bg-org">Palo Alto Networks · Santa Clara</div>
+                        <div class="bg-desc">IoT security, policy recommendation, LLM-based threat intelligence. 2 patents.</div>
+                    </div>
+
+                    <div class="bg-item scroll-in">
+                        <div class="bg-top">
+                            <span class="bg-role">Software Engineer</span>
+                            <span class="bg-dates">Jun 2019 — Jun 2020</span>
+                        </div>
+                        <div class="bg-org">Retail Business Services (Ahold Delhaize)</div>
+                        <div class="bg-desc">Career-nav tools, VR retail environments (Unity/Oculus), time-series analysis.</div>
+                    </div>
+
+                    <div class="bg-item scroll-in">
+                        <div class="bg-top">
+                            <span class="bg-role">Firmware Engineering Co-op</span>
+                            <span class="bg-dates">Jan — Jun 2018</span>
+                        </div>
+                        <div class="bg-org">Vicor Corporation</div>
+                        <div class="bg-desc">Bootloader automation tools in C#.</div>
+                    </div>
+
+                    <h4 class="bg-label scroll-in" style="margin-top: 32px;">Research</h4>
+
+                    <div class="bg-item scroll-in">
+                        <div class="bg-top">
+                            <span class="bg-role">Graduate Researcher</span>
+                            <span class="bg-dates">2021 — 2022</span>
+                        </div>
+                        <div class="bg-org">Amazon — Alexa Prize Taskbot Challenge</div>
+                        <div class="bg-desc">Core member of UMass Amherst's Alexa Prize Taskbot team. Conversational AI.</div>
+                    </div>
+
+                    <div class="bg-item scroll-in">
+                        <div class="bg-top">
+                            <span class="bg-role">Summer Research Intern</span>
+                            <span class="bg-dates">May — Aug 2021</span>
+                        </div>
+                        <div class="bg-org">UMass Information Extraction and Synthesis Laboratory (IESL)</div>
+                        <div class="bg-desc">Information extraction research.</div>
+                    </div>
+
+                    <div class="bg-item scroll-in">
+                        <div class="bg-top">
+                            <span class="bg-role">Graduate Researcher</span>
+                            <span class="bg-dates">Feb — May 2021</span>
+                        </div>
+                        <div class="bg-org">IBM — MIT-IBM Watson AI Lab</div>
+                        <div class="bg-desc">Graph Neural Networks (GNNs) to predict new concept combinations for scientific research.</div>
+                    </div>
+
+                    <div class="bg-item scroll-in">
+                        <div class="bg-top">
+                            <span class="bg-role">Graduate Researcher</span>
+                            <span class="bg-dates">Feb — May 2021</span>
+                        </div>
+                        <div class="bg-org">UMass NGRAM Lab</div>
+                        <div class="bg-desc">Built a high-quality simplification dataset to train an efficient Text Simplification model.</div>
+                    </div>
+                </div>
+
+                <div class="bg-col">
+                    <h4 class="bg-label scroll-in">Education</h4>
+
+                    <div class="bg-item scroll-in">
+                        <div class="bg-top">
+                            <span class="bg-role">MS, Computer Science</span>
+                            <span class="bg-dates">2020 — 2022</span>
+                        </div>
+                        <div class="bg-org">University of Massachusetts Amherst</div>
+                        <div class="bg-desc">Machine Learning focus.</div>
+                        <div class="bg-courses">
+                            <span>Advanced Algorithms</span>
+                            <span>Machine Learning</span>
+                            <span>Reinforcement Learning</span>
+                            <span>Algorithms for Data Science</span>
+                            <span>Advanced NLP</span>
+                            <span>Database Design & Implementation</span>
+                        </div>
+                    </div>
+
+                    <div class="bg-item scroll-in">
+                        <div class="bg-top">
+                            <span class="bg-role">BS, Computer Engineering</span>
+                            <span class="bg-dates">2015 — 2019</span>
+                        </div>
+                        <div class="bg-org">Rochester Institute of Technology</div>
+                        <div class="bg-desc">Mathematics minor.</div>
+                        <div class="bg-courses">
+                            <span>Machine Learning</span>
+                            <span>Deep Learning</span>
+                            <span>Computer Vision</span>
+                            <span>Principles of Data Mining</span>
+                            <span>Stochastic Processes</span>
+                            <span>Graph Theory</span>
+                            <span>Linear Algebra</span>
+                        </div>
+                    </div>
+
+                    <h4 class="bg-label scroll-in" style="margin-top: 32px;">Areas</h4>
+                    <div class="areas scroll-in">
+                        <span>NLP</span>
+                        <span>LLMs</span>
+                        <span>Adversarial ML</span>
+                        <span>Agentic Systems</span>
+                        <span>IoT Security</span>
+                        <span>Conversational AI</span>
+                        <span>GNNs</span>
+                        <span>Reinforcement Learning</span>
+                        <span>Information Retrieval</span>
+                        <span>Python</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Resume -->
+    <section class="section section-alt" id="resume">
+        <div class="container">
+            <div class="contact-center">
+                <h2 class="section-heading scroll-in">Resume</h2>
+                <p class="contact-note scroll-in">Download my full resume below.</p>
+                <a href="assets/resume.pdf" target="_blank" class="c-card scroll-in" style="display: inline-flex; max-width: 240px; justify-content: center;">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="12" y1="18" x2="12" y2="12"/><polyline points="9 15 12 18 15 15"/></svg>
+                    Download PDF
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="section" id="contact">
+        <div class="container">
+            <div class="contact-center">
+                <h2 class="section-heading scroll-in">Get in touch</h2>
+                <p class="contact-note scroll-in">Happy to talk about AI security, adversarial evaluation, research collaborations, or whatever else.</p>
+                <div class="contact-cards scroll-in">
+                    <a href="mailto:yelmankhan008@gmail.com" class="c-card">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="M22 6l-10 7L2 6"/></svg>
+                        yelmankhan008@gmail.com
+                    </a>
+                    <a href="https://www.linkedin.com/in/yelman-khan-9a937210a/" target="_blank" class="c-card">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-4 0v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+                        LinkedIn
+                    </a>
+                    <a href="https://github.com/yelmankhan008" target="_blank" class="c-card">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+                        GitHub
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Yelman Khan</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
