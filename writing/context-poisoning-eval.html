@@ -35,7 +35,8 @@ p { color: var(--muted); margin-bottom: 0.8rem; font-size: 0.92rem; }
 strong { color: var(--text); font-weight: 600; }
 a { color: var(--accent); text-decoration: none; transition: color 0.2s; }
 a:hover { color: var(--accent-h); }
-table { width: 100%; border-collapse: collapse; margin: 1rem 0; font-size: 0.82rem; }
+.table-wrap { overflow-x: auto; -webkit-overflow-scrolling: touch; margin: 1rem 0; }
+table { width: 100%; border-collapse: collapse; font-size: 0.82rem; }
 th { background: var(--card); padding: 0.6rem 0.75rem; text-align: left; border: 1px solid var(--border-h);
      font-family: 'Space Grotesk', sans-serif; font-weight: 600; color: var(--text); position: sticky; top: 0; }
 td { padding: 0.5rem 0.75rem; border: 1px solid var(--border); }
@@ -89,7 +90,12 @@ svg text { font-family: 'JetBrains Mono', monospace !important; }
     .page-wrap { padding: 1.5rem 16px 3rem; }
     h1 { font-size: 1.4rem; }
     .grid-2 { grid-template-columns: 1fr; }
-    table { font-size: 0.75rem; }
+    table { font-size: 0.72rem; }
+    th, td { padding: 0.4rem 0.5rem; }
+    svg { max-height: 300px; }
+    .transcript-box { font-size: 0.7rem; max-height: 300px; }
+    .metric-card .num { font-size: 1.6rem; }
+    .author { font-size: 0.78rem; }
 }
 </style>
 </head>
